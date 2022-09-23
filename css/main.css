@@ -1,0 +1,49 @@
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+/*HERO*/
+.hero {
+background-image: linear-gradient(to right, rgb(255, 255, 255, 0.1), rgb(255, 80, 17, 0.8)), url(/img/img-1.jpg);
+height: 100vh;
+}
+
+
+.section-text {
+    color: #FF5011;
+}
+.section-btn {
+    background-color: #FF5011;
+}
+
+/*SECTION ONE*/
+.section__one-cta {
+    color: #FF5011;
+}
+
+
+/*SECTION THREE*/
+
+.section__three-link:hover,
+.section__three-link:active {
+    background-color: #dee8e9;
+    color: #FF5011;
+    padding: 8px 12px;
+}
+
+/*SECTION FOUR*/
+.section__four {
+    background-color: #dee8e9;
+}
+.section__four-link:hover,
+.section__four-link:active {
+    background-color: #ffffff;
+    color: #FF5011;
+    padding: 8px 12px;
+}
+
+/*SECTION FIVE*/
+.section__five {
+    background: #000000;
+        background: linear-gradient(to top right, #000000 25%, #FF5011 100%);
+}
