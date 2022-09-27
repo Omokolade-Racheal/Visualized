@@ -16,11 +16,23 @@ height: 100vh;
     background-color: #FF5011;
 }
 
+/*NAVIGATION*/
+@media (min-width:496px) {
+.navigation {
+    padding: rem 0;
+}
+}
 /*SECTION ONE*/
 .section__one-cta {
     color: #FF5011;
 }
 
+/*SECTION TWO*/
+@media (min-width:496px) {
+    .section__two-text {
+        margin: 1.5rem 0;
+    }
+}
 
 /*SECTION THREE*/
 
@@ -29,6 +41,19 @@ height: 100vh;
     background-color: #dee8e9;
     color: #FF5011;
     padding: 8px 12px;
+}
+
+@media (min-width:496px) {
+    .section__three-list {
+        margin-top: 4rem;
+    }
+
+    .section__three-list span {
+        margin-left: 10px;
+    }
+    .section__three-link {
+        font-size: 1.2rem;
+    }
 }
 
 /*SECTION FOUR*/
@@ -42,8 +67,59 @@ height: 100vh;
     padding: 8px 12px;
 }
 
+@media (min-width:496px) {
+ .section__four-box {
+    margin: 0 auto;
+    padding: 2rem 3rem;
+ }
+}
+
 /*SECTION FIVE*/
 .section__five {
     background: #000000;
         background: linear-gradient(to top right, #000000 25%, #FF5011 100%);
+}
+
+@media (min-width:496px) {
+    .section__five-text {
+        margin: 1.5rem 0;
+    }
+
+    .section__four-names {
+        margin: 0 auto;
+    }
+
+    .section__four-names span {
+        margin-left: 10px;
+    }
+
+    .section__four-link {
+         font-size: 1.2rem;
+    }
+}
+
+/*FOOTER*/
+@media (min-width:496px) {
+    .footer__link {
+        flex-direction: column;
+        margin: 0 6rem;
+    }
+
+    .footer__base {
+        flex-direction: column;     
+    }
+
+    .footer__socials {  
+        margin: 0 8rem;
+    }
+
+    .footer__policy {
+        margin: 0 2rem;
+    }
+    .footer__policy a{
+        padding-left: 4px;
+    }
+    .footer__copyright {
+         margin: 0 3rem;
+    }
 }
