@@ -8,6 +8,14 @@ background-image: linear-gradient(to right, rgb(255, 255, 255, 0.1), rgb(255, 80
 height: 100vh;
 }
 
+@media (min-width:200px) {
+    .hero {
+        height: 90vh;
+        
+    }
+}
+
+
 
 .section-text {
     color: #FF5011;
@@ -16,14 +24,20 @@ height: 100vh;
     background-color: #FF5011;
 }
 
+/*NAVIGATION
+@media (max-width:496px) {
+
+}*/
 /*SECTION ONE*/
 .section__one-cta {
     color: #FF5011;
 }
 
+
 /*SECTION TWO*/
 
 /*SECTION THREE*/
+
 .section__three-link:hover,
 .section__three-link:active {
     background-color: #dee8e9;
